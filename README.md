@@ -3,33 +3,19 @@
 
 Author: Amber Falbo
 
-Links and Resources
 
-- ci/cd (GitHub Actions)
-- back-end server url (when applicable)
-- front-end application (when applicable)
+Description
+[Tell me about your application, should be about a paragraph] This is a Python console application that will ask a user several questions about me, the developer. There are multiple question types ranging from inputting a number to True or False. At the end of the game the user receives their total score.
 
-Setup
+Getting Started
+Clone this repository to your local machine.
 
-.env requirements (where applicable)
+$ git clone [repo clone url here]
+To run the program from VS Code:
+Select File -> Open -> Project/Solution
 
-i.e.
+Next navigate to the location you cloned the Repository.
 
-- PORT - Port Number
-- MONGODB_URI - URL to the running mongo instance/db
+Double click on the Lab01-About-Me directory.
 
-How to initialize/run your application (where applicable)
-
-- e.g. npm start
-
-How to use your library (where applicable)
-
-Tests
-
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
-
-UML
-
-Link to an image of the UML for your application and response to events
+Then select and open AboutMe.py
