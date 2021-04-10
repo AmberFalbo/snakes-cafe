@@ -1,3 +1,4 @@
+
 # Lab:01- Intro to Python - Class 01
 ## Project: Snakes Cafe
 

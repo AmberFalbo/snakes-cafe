@@ -1,75 +1,21 @@
-print("""
-**************************************
-**    Welcome to the Snakes Cafe!   **
-**    Please see our menu below.    **
-**                                  **
-** To quit at any time, type "quit" **
-**************************************
-""")
+# list , dictionary
 
-print("""
-Appetizers
-----------
-Wings
-Cookies
-Spring Rolls
+orders = {
+    'wings': 0,
+}
 
-Entrees
--------
-Salmon
-Steak
-Meat Tornado
-A Literal Garden
+print(orders)
 
-Desserts
---------
-Ice Cream
-Cake
-Pie
+print('Welcome to Snakes Cafe')
+wing_order = orders['wings']
 
-Drinks
-------
-Coffee
-Tea
-Unicorn Tears
-""")
-
-user_input = input("""
-***********************************
-** What would you like to order? **
-***********************************
-> """)
-
-
+user_input = input('Please enter a item to order: ')
 
 print(user_input)
 
-# list , dictionary
+print(orders['wings'])
 
-# def snakes():
+orders['wings'] += 1
 
-#     orders = {
-#         'wings': 0,
-#     }
-    
-#     print(orders)
-    
-#     print('Welcome to Snakes Cafe')
-    
-#     wing_order = orders['wings']
-    
-    
-#     user_input = input('Please enter a item to order: ')
-    
-#     print(user_input)
-    
-#     print(orders['wings'])
-    
-#     orders['wings'] += 1
-    
-    
-#     print(orders)
+print(orders)
 
-
-# if __name__ == '__main__':
-#     snakes()
